@@ -5,31 +5,62 @@ body {
     background: #fff;
     padding: 0;
     margin: 0;
-    font-family: Helvetica, Arial, sans-serif;
+
+    background-color: #DA2F24;
+    /* font-family: Helvetica, Arial, sans-serif; */
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* .title {
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    display: flex;
+    padding: 20px;
+}
+
+.warn_img{
+    padding: 20px;
+} */
+
+.help{
+    display: inline;
 }
 
 .container {
-    background-color: #fff;
+    /* background-color: #fff; */
+    height: 750px;
+    width: 750px;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
     padding-top: 50px;
 }
 
 h2 {
     font-size: 24px;
-    color: #e23131;
+    color: #ffffff;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     line-height: 130%;
+    
 }
 
 h3 {
     font-size: 16px;
-    color: #000000;
+    color: #ffffff;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     line-height: 130%;
 }
+
+p {
+    font-size: 12px;
+    color: #ffffff;
+    /* font-weight: bold; */
+    text-align: left;
+    line-height: 20px;
+}
+
 
 .buton {
     background: #e23131;
@@ -41,8 +72,14 @@ h3 {
     text-decoration: none;
 }
 
+a {
+    text-decoration: underline;
+    color: #fff;
+}
+
 a:hover {
-    color: #ff0;
+    color: rgb(0, 26, 255);
+    
 }
 
 span {

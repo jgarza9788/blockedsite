@@ -15,17 +15,9 @@ body {
     padding-top: 50px;
 }
 
-h2 {
-    font-size: 24px;
-    color: #e23131;
-    font-weight: bold;
-    text-align: center;
-    line-height: 130%;
-}
-
 h3 {
     font-size: 16px;
-    color: #000000;
+    color: #e23131;
     font-weight: bold;
     text-align: center;
     line-height: 130%;

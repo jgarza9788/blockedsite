@@ -11,13 +11,16 @@ body {
 .container {
     background-color: #fff;
     margin: 0 auto;
-    text-align: center;
-    padding-top: 50px;
+    text-align: left;
+    /* padding-top: 50px; */
+    padding: 100px 100px;
+    font-size: 18px;
+    line-height: 150%;
 }
 
 h2 {
     font-size: 24px;
-    color: #e23131;
+    color: #000000;
     font-weight: bold;
     text-align: center;
     line-height: 130%;
